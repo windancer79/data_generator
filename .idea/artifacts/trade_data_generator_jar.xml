@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="trade_data_generator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/trade_data_generator_jar</output-path>
+    <root id="archive" name="trade_data_generator.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/trade/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="data_generator" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../api-java/target/artifacts/dolphindb/dolphindb.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-csv-1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
